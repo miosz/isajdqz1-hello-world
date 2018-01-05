@@ -15,9 +15,17 @@ public class Main {
         uczen uczen3 = new uczen("Imie3","Nazwisko3",4.0, 5.0);
         System.out.println(uczen3.imie + " " + uczen3.nazwisko + " ocena1: " + uczen3.ocena1 + " ocena2: " + uczen3.ocena2);
 
-       uczen1.srednia();
-       uczen2.srednia();
-       uczen3.srednia();
+        uczen1.srednia();
+        uczen2.srednia();
+        uczen3.srednia();
+
+        uczen1.maksymalna();
+        uczen2.maksymalna();
+        uczen3.maksymalna();
+
+        uczen1.minimalna();
+        uczen2.minimalna();
+        uczen3.minimalna();
 
     }
 

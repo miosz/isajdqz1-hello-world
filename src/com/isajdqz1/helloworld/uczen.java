@@ -35,4 +35,15 @@ public class uczen {
         System.out.println(srednia);
     }
 
+    public void maksymalna(){
+        double maksymalna = Math.max(this.ocena1, this.ocena2);
+        System.out.println(maksymalna);
+    }
+
+    public void minimalna(){
+        double minimalna = Math.min(this.ocena1, this.ocena2);
+        System.out.println(minimalna);
+    }
+
+
 }
