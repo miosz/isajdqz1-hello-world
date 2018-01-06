@@ -1,10 +1,10 @@
 package com.isajdqz1.helloworld;
 
 public class uczen {
-    public String imie;
-    public String nazwisko;
-    public double ocena1;
-    public double ocena2;
+    private String imie;
+    private String nazwisko;
+    private double ocena1;
+    private double ocena2;
 
 
     public uczen(String imie, String nazwisko, double ocena1, double ocena2) {
