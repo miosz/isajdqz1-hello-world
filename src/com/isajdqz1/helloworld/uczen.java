@@ -32,17 +32,17 @@ public class uczen {
 
     public void srednia() {
         double srednia = (this.ocena1 + this.ocena2)/2;
-        System.out.println(srednia);
+        System.out.println("Średnia ucznia " + this.imie + " to: " + srednia);
     }
 
     public void maksymalna(){
         double maksymalna = Math.max(this.ocena1, this.ocena2);
-        System.out.println(maksymalna);
+        System.out.println("Maksymalna ocena ucznia " + this.imie + " to: " + maksymalna);
     }
 
     public void minimalna(){
         double minimalna = Math.min(this.ocena1, this.ocena2);
-        System.out.println(minimalna);
+        System.out.println("Minimalna ocena ucznia " + this.imie + " to: " + minimalna);
     }
 
 
