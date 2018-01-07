@@ -5,7 +5,6 @@ public class Uczen {
     private String nazwisko;
     private double[] oceny;
 
-
     Uczen(String imie, String nazwisko, double[] oceny) {
         this.imie = imie;
         this.nazwisko = nazwisko;
@@ -49,7 +48,7 @@ public class Uczen {
 
     public void minimalna(){
         if (oceny.length>0) {
-            double minimalna = 0;
+            double minimalna=999;
             for (double ocena : oceny) {
                 if (minimalna>ocena) {
                     minimalna = ocena;
@@ -59,13 +58,12 @@ public class Uczen {
         }
         else
             System.out.println("Zero ocen");
-
     }
+
     public void wypiszOceny() {
         for (double ocena : oceny) {
             System.out.print(ocena + " ");
         }
         System.out.println();
     }
-
 }

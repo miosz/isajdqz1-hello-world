@@ -11,7 +11,7 @@ public class Main {
 
         */
 
-        System.out.println("Zadanie 2 ");
+        System.out.println("Zadanie 2");
 
         Uczen uczen1 = new Uczen("Imie1","Nazwisko1", new double[]{3.0,4.0});
         System.out.print("Oceny ucznia " + uczen1.getImie() + " " + uczen1.getNazwisko());
@@ -38,5 +38,4 @@ public class Main {
         uczen3.minimalna();
 
     }
-
 }
