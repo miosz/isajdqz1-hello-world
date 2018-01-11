@@ -1,7 +1,6 @@
 package com.isajdqz1.helloworld;
 
 import java.io.IOException;
-import java.nio.file.Files;
 
 public class Main {
 
@@ -43,10 +42,13 @@ public class Main {
 
         System.out.println("Zadanie 3");
 
-        CzytaniePlikow fileReader = new CzytaniePlikow();
-        fileReader.wczytajPlik();
-     //   fileReader.wyswietlLinie(fileReader.wczytajPlik());
-     //   fileReader.pierwszaKolumna(fileReader.wczytajPlik());
+        FileReader fileReader = new FileReader();
+        fileReader.readFile();
+        fileReader.wyswietlLinie(fileReader.readFile());
+        fileReader.pierwszaKolumna(fileReader.readFile());
+
+        //   wczytaniePliku.wyswietlLinie(wczytaniePliku.wczytajPlik());
+        //   wczytaniePliku.pierwszaKolumna(wczytaniePliku.wczytajPlik());
 
 
 
