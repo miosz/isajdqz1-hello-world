@@ -1,3 +1,0 @@
-a,a,a,b,2,tak
-c,v,a,b,2
-c,v,a,b,2,tak

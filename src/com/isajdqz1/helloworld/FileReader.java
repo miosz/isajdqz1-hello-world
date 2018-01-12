@@ -11,8 +11,6 @@ public class FileReader {
         File file = getFile("plik.txt");
 
         return Files.readAllLines(file.toPath());
-
-
     }
 
     public void pierwszaKolumna(List<String> lines) {
@@ -25,6 +23,8 @@ public class FileReader {
             }
         }
     }
+
+
 
     public void wyswietlLinie(List<String> lines) {
         for (String line : lines) {
