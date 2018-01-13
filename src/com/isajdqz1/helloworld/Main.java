@@ -1,16 +1,18 @@
 package com.isajdqz1.helloworld;
 
+import java.io.IOException;
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         /*
         Zadanie 1
 
         String imie = "Milosz"; // zmienna imie
         System.out.println("Hello " + imie); //Hello World
-
         */
 
+        /*
         System.out.println("Zadanie 2");
 
         Uczen uczen1 = new Uczen("Imie1","Nazwisko1", new double[]{3.0,4.0});
@@ -36,6 +38,16 @@ public class Main {
         uczen1.minimalna();
         uczen2.minimalna();
         uczen3.minimalna();
+        */
+
+        System.out.println("Zadanie 3");
+
+        FileReader fileReader = new FileReader();
+        fileReader.readFile();
+        fileReader.wyswietlLinie(fileReader.readFile());
+
+        Uczen uczen1 = new Uczen(); //not working
+        uczen1.wczytajUcznia();
 
     }
 }
