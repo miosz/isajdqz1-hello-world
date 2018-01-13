@@ -46,7 +46,7 @@ public class Main {
         fileReader.readFile();
         fileReader.wyswietlLinie(fileReader.readFile());
 
-        Uczen uczen1 = new Uczen();
+        Uczen uczen1 = new Uczen(); //not working
         uczen1.wczytajUcznia();
 
     }
