@@ -1,4 +1,4 @@
-package com.isajdqz1.helloworld;
+package com.isajdqz1.helloworld.zadanie03;
 
 import java.io.File;
 import java.io.IOException;

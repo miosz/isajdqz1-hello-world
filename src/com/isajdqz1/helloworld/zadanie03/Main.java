@@ -1,16 +1,10 @@
-package com.isajdqz1.helloworld;
+package com.isajdqz1.helloworld.zadanie03;
 
 import java.io.IOException;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        /*
-        Zadanie 1
-
-        String imie = "Milosz"; // zmienna imie
-        System.out.println("Hello " + imie); //Hello World
-        */
 
         /*
         System.out.println("Zadanie 2");
@@ -46,8 +40,8 @@ public class Main {
         fileReader.readFile();
         fileReader.wyswietlLinie(fileReader.readFile());
 
-        Uczen uczen1 = new Uczen(); //not working
-        uczen1.wczytajUcznia();
+       // Uczen uczen1 = new Uczen(); //not working
+     //   uczen1.wczytajUcznia();
 
     }
 }

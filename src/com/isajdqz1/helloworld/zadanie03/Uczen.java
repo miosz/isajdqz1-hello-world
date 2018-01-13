@@ -1,4 +1,4 @@
-package com.isajdqz1.helloworld;
+package com.isajdqz1.helloworld.zadanie03;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ public class Uczen {
 
 
 
-    Uczen (String imie, String nazwisko, double[] oceny) {
+    Uczen(String imie, String nazwisko, double[] oceny) {
         this.imie = imie;
         this.nazwisko = nazwisko;
         this.oceny = oceny;
