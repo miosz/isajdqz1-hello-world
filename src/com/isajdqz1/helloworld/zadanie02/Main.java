@@ -1,12 +1,13 @@
 package com.isajdqz1.helloworld.zadanie02;
 
+import com.isajdqz1.helloworld.statystyka.Statystyka;
 import com.isajdqz1.helloworld.zadanie03.FileReader;
 
 import java.io.IOException;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
 
         System.out.println("Zadanie 2");
 
@@ -22,17 +23,19 @@ public class Main {
         System.out.print("Oceny ucznia " + uczen3.getImie() + " " + uczen3.getNazwisko());
         uczen3.wypiszOceny();
 
-        uczen1.srednia();
-        uczen2.srednia();
-        uczen3.srednia();
+        Statystyka statystyka = new Statystyka();
+        statystyka.srednia(uczen1);
+        statystyka.srednia(uczen2);
+        statystyka.srednia(uczen3);
 
-        uczen1.maksymalna();
-        uczen2.maksymalna();
-        uczen3.maksymalna();
 
-        uczen1.minimalna();
-        uczen2.minimalna();
-        uczen3.minimalna();
+        statystyka.maksymalna(uczen1);
+        statystyka.maksymalna(uczen2);
+        statystyka.maksymalna(uczen3);
+
+        statystyka.minimalna(uczen1);
+        statystyka.minimalna(uczen2);
+        statystyka.minimalna(uczen3);
 
     }
 }
