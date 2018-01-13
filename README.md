@@ -17,3 +17,6 @@ Zadanie 2 (może być w cześniej założonym repozytorium, termin do kiedy nale
     d. Dodaj metodę znajdującą najlepszą ocenę
     e. Stwórz kilka obiektów klasy uczen
     f. Wyświetl ich średnią ocen, najgorszą i najlepszą ocenę
+    
+3 Zadanie (termin oddania zadania to 13.01.2018)
+    Do wcześniej napisanej aplikacji dodaj wczytanie uczniów i ich ocen z pliku tekstowego.
